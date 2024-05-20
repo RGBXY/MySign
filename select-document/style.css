@@ -1,0 +1,272 @@
+/* Text Color */
+.text-gray {
+  color: #525866;
+}
+
+/* Backgroud-Color */
+.bg-gray {
+  background-color: #525866;
+}
+
+.button-blue-light{
+  background-color: #339eec;
+  border: 0;
+  color: white;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 7px;
+}
+
+/* Button */
+.gray-button {
+  color: #525866;
+  border: 1.5px solid #e2e4e9;
+  background-color: white;
+  box-shadow: 0px 1px 2px 0px rgba(82, 88, 102, 0.06);
+  padding: 0 3.5px 3px;
+  font-size: 14px;
+}
+
+.gray-button:hover {
+  background-color: #f6f8fa;
+  color: black;
+  border: 1.5px solid #f6f8fa;
+  transition: all ease-in-out 0.3s;
+}
+
+.input-gray:hover{
+  border: 0;
+  background-color: #e2e4e9;
+  transition: all ease-in-out 0.3s;
+}
+
+.select-container{
+ margin: 0 1.5rem;
+}
+
+.select-brand{
+  padding: 2rem 1.3rem;
+  border-bottom: 1.5px solid #e2e4e9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-body{
+  padding: 2rem 1rem;
+}
+
+.select-body-1{
+  background-color: #f6f8fa;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.select-body-1 h1{
+  font-size: 12px;
+  color: #868C98;
+  font-weight: 500;
+}
+
+.input-gray:focus{
+  outline: #ced1d6;
+}
+
+.act-button{
+  background-color: white;
+}
+
+.act-button span{
+  font-size: 13.5px;
+  font-weight: 500;
+}
+
+.act-button:hover {
+  background-color: #e2e4e9;
+  transition: all ease-in-out .3s;
+}
+
+.pagination-button{
+  background-color: #fff;
+  border: none;
+}
+
+.pagination-button:hover{
+  background-color: #e2e4e9;
+}
+
+/* Navbar */
+.navigation {
+  width: 19%;
+  height: auto;
+  border-right: 1.5px solid #e2e4e9;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+}
+
+.nav-top {
+  border-bottom: 1.5px solid #e2e4e9;
+  padding-bottom: 1.7rem;
+}
+
+.nav-item {
+  gap: 0.9rem;
+}
+
+.nav-box {
+  width: 4.5px;
+  height: 19px;
+  border-radius: 0 5px 5px 0;
+  background-color: #339eec;
+  position: absolute;
+  display: none;
+}
+
+.nav-active-2 {
+  display: block;
+}
+
+.nav-wrap {
+  padding: 0 1rem 0 1.3rem;
+}
+
+.nav-link-item {
+  padding: 6px 15px 6px 9px;
+  border-radius: 7px;
+  justify-content: space-between;
+}
+
+.nav-link-item:hover {
+  background-color: #f6f8fa;
+}
+
+.bg-link {
+  background-color: #f6f8fa;
+}
+
+.arrow-icon {
+  rotate: -90deg;
+}
+
+.nav-link-wrap p {
+  font-size: 13px;
+  margin: 0 0.5rem;
+  font-weight: 600;
+}
+
+.nav-foot {
+  height: 25%;
+  position: relative;
+}
+
+.nav-link {
+  position: absolute;
+  bottom: 0;
+  padding: 1.5rem 1rem;
+  width: 100%;
+}
+
+.content-2-wrap {
+  width: 100%;
+  height: auto;
+  margin-left: 19%;
+}
+
+.icon-gray {
+  padding: 0 7px 4px;
+  background-color: transparent;
+  border: none;
+  transition: all ease-in-out 0.3s;
+}
+
+.icon-gray:hover {
+  background-color: #f6f8fa;
+}
+
+.form-select {
+  width: auto;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.form-select .option {
+  position: absolute;
+  top: 10rem;
+}
+
+.button-upload {
+  background-color: #375DFB;
+  border: 0;
+  color: white;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 7px;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box .percent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box .percent svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.box .percent svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 4;
+  transform: translate(5px, 5px) rotate(-90deg); /* Ubah transformasi untuk memulai dari atas */
+  transform-origin: 33% 16%;
+  stroke-dasharray: 157;
+  stroke-dashoffset: 0;
+}
+
+.box .percent svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke: #e2e4e9;
+}
+
+.box .percent svg circle:nth-child(2) {
+  stroke-dashoffset: calc(157 - (157 * 25 ) / 100);
+  stroke: #375DFB;
+}
+
+.box .percent .number {
+  position: absolute;
+  top: 3px;
+  left: 1px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+}
+
+.box .percent .number h2 {
+  font-size: 13px;
+  color: black;
+}
+
+table thead tr .col{
+  font-size: 13px;
+  color: #525866;
+  font-weight: 400;
+}
